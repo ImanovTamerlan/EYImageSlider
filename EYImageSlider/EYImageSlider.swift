@@ -31,7 +31,8 @@
     func sliderLoadImageView(_ imageView: UIImageView, withURL url: URL) {
         let actInd = UIActivityIndicatorView()
         actInd.center = CGPoint(x: imageView.frame.size.width/2, y: imageView.frame.size.height/2)
-        actInd.activityIndicatorViewStyle = .black
+        actInd.activityIndicatorViewStyle = .white
+        actInd.color = UIColor.black
         imageView.addSubview(actInd)
         actInd.startAnimating()
         
