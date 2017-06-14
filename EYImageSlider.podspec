@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.name         = "EYImageSlider"
   s.version      = "0.0.3"
   s.summary      = "EYImageSlider is an widget for you to show a series images like in a slider."
@@ -32,5 +32,5 @@ Pod::Spec.new do |s|
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.framework  = "UIKit"
-
+  s.dependency 'SDWebImage', '~>3.8'
 end
